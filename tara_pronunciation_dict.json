@@ -1,0 +1,49 @@
+{
+  "hindi_numbers": {
+    "0": "shunya",
+    "1": "ek",
+    "2": "do",
+    "3": "teen",
+    "4": "chaar",
+    "5": "paanch",
+    "6": "chhe",
+    "7": "saat",
+    "8": "aath",
+    "9": "nau"
+  },
+  "hindi_ordinals": {
+    "1": "pehli",
+    "2": "doosri",
+    "3": "teesri",
+    "4": "chauthi",
+    "5": "paanchvi",
+    "10": "dasvi",
+    "15": "pandrahvi",
+    "20": "beesvi",
+    "25": "pachcheesvi"
+  },
+  "hindi_time_periods": {
+    "AM_morning": "subah",
+    "PM_afternoon": "dopahar",
+    "PM_evening": "shaam"
+  },
+  "dental_terms_hindi": {
+    "appointment": "milne ka samay",
+    "checkup": "jaanch",
+    "cleaning": "safai",
+    "filling": "bharna",
+    "root canal": "root canal",
+    "extraction": "daant nikalna",
+    "braces": "braces",
+    "whitening": "whitening",
+    "implant": "implant"
+  },
+  "common_phrases_hindi": {
+    "rupees": "rupaye",
+    "thousand": "hazaar",
+    "hundred": "sau",
+    "lakh": "lakh",
+    "o_clock": "baje",
+    "minutes": "minute"
+  }
+}

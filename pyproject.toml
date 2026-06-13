@@ -1,0 +1,36 @@
+[project]
+name = "dental-clinic-outbound"
+version = "0.1.0"
+description = "AI Voice Calling Agent for Dental Clinic - Outbound Calls"
+requires-python = ">=3.11"
+
+dependencies = [
+    # LiveKit Core
+    "livekit-agents>=1.0.0",
+    "livekit-api>=1.0.0",
+
+    # LiveKit Plugins - AI Services
+    "livekit-plugins-silero",       # VAD (Voice Activity Detection)
+    "livekit-plugins-deepgram",     # STT (Speech-to-Text)
+    "livekit-plugins-groq",         # LLM (Groq - free OpenAI-compatible)
+    "livekit-plugins-sarvam",       # TTS (Sarvam - Hindi/Hinglish, low cost)
+    "livekit-plugins-elevenlabs",   # TTS (ElevenLabs - premium fallback)
+
+    # Google Integrations
+    "gspread>=6.0.0",              # Google Sheets
+    "google-auth>=2.0.0",          # Google Auth
+    "google-auth-oauthlib>=1.0.0", # Google OAuth
+    "google-api-python-client>=2.0.0", # Google Calendar API
+
+    # Utilities
+    "python-dotenv>=1.0.0",
+    "tzdata",
+]
+
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["agent", "dialer", "make_call", "prompt", "test_tts"]
+packages = ["tools"]

@@ -1,0 +1,21 @@
+# Secrets
+.env
+credentials.json
+service_account.json
+token.json
+token_sheets.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Test outputs
+*.mp3
+test_output_*
+
+# IDE
+.vscode/
+.idea/
